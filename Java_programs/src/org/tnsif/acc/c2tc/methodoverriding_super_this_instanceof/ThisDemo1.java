@@ -1,4 +1,6 @@
-package org.tnsif.acc.c2tc.methodoverriding_super_this;
+package org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof;
+
+import org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof.ProductBottle;
 
 class ProductBottle
 {

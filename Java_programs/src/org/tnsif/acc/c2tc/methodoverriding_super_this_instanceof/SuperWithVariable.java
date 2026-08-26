@@ -1,4 +1,7 @@
-package org.tnsif.acc.c2tc.methodoverriding_super;
+package org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof;
+
+import org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof.Notification;
+import org.tnsif.acc.c2tc.methodoverriding_super_this_instanceof.PushNotification;
 
 class Notification 
 {
