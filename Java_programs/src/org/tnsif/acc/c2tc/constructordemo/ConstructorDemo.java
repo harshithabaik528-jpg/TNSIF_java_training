@@ -25,7 +25,7 @@ public class ConstructorDemo {
 
 	public static void main(String[] args) {
 		User1 user=new User1();
-		User1 use1r=new User1("Hema ",26);
+		User1 user1=new User1("Hema ",26);
 
 	}
 
