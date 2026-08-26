@@ -1,5 +1,4 @@
 package org.tnsif.acc.c2tc.interface_demo;
-
 @FunctionalInterface
 interface NotificationService
 {
@@ -26,7 +25,7 @@ class SMSNotification implements NotificationService
 	
 }
 
-public class FunctionalInterface {
+public class FunctionalInterfaceDemo {
 
 	public static void main(String[] args) {
 		NotificationService email=new EmailNotification();
