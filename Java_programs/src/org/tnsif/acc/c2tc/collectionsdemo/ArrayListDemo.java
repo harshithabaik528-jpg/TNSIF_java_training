@@ -22,6 +22,13 @@ public class ArrayListDemo {
 		System.out.println("After removing "+fruits);
 		
 		
+		if(fruits.contains("Mango"))
+		{
+			System.out.println("Requested fruit is present");
+		}else
+		{
+			System.out.println("Requested fruit is not prsent");
+		}
 		
 		// Using Iterable
         Iterable<String> iterableFruits = fruits;

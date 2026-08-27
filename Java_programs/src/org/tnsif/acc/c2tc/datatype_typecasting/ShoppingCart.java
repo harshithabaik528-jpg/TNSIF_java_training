@@ -10,6 +10,9 @@ public class ShoppingCart {
 		double total_price=quantity*pricePerItem;  //int->double automatically
 		
 		double discount=10.75;
+		System.out.println(discount);
+		System.out.println(total_price);
+		
 		
 
 	}
