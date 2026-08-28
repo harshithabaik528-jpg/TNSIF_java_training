@@ -26,6 +26,9 @@ public class ConstructorOverloading {
 		Student1 s1=new Student1();
 		Student1 s3=new Student1("Hema",26);
 		Student1 s2=new Student1("Hema");
+		System.out.println(s1);
+		System.out.println(s3);
+		System.out.println(s2);
 	
 
 	}

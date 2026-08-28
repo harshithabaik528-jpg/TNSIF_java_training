@@ -24,6 +24,8 @@ public class ConstructorDemo {
 	public static void main(String[] args) {
 		User user=new User();
 		User user1=new User("Rajat",20);
+		System.out.println(user);
+		System.out.println(user1);
 
 	}
 

@@ -7,8 +7,7 @@ import java.io.IOException;
 public class IOExceptionDemo {
 
 	public static void main(String[] args) throws IOException {
-		try {
-		BufferedReader br=new BufferedReader(new FileReader ("C:\\Users\\Admin\\OneDrive\\Desktop\\Java Fullstack\\demo1.txt"));
+		try (BufferedReader br = new BufferedReader(new FileReader ("C:\\Users\\Admin\\OneDrive\\Desktop\\Java Fullstack\\demo1.txt"))) {
 		String data="";
 		while((data=br.readLine())!=null)
 		{
